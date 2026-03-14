@@ -1,26 +1,30 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-landed-bg: #e2e8f0; /* Light gray background outside phone */
+  --color-phone-bg: #ffffff; /* Clean white phone background */
+  --color-phone-border: #cbd5e1; /* Light gray border */
+  --color-text-muted: #64748b; /* Slate-500 for secondary text */
+  --color-text-primary: #0f172a; /* Slate-900 for primary text */
+  --color-brand-blue: #2563eb; /* Blue-600 for brand accents */
+  --color-nav-inactive: #94a3b8; /* Slate-400 for unselected tabs */
+  --color-nav-active: #2563eb; /* Blue-600 for active tab */
+  --font-sans: -apple-system, 'SF Pro Display', sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-landed-bg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

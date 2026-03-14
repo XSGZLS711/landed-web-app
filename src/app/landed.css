@@ -1,0 +1,337 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: linear-gradient(135deg, #dce8f8 0%, #e4edf9 40%, #dde8fc 100%);
+  display: flex; justify-content: center; align-items: flex-start;
+  min-height: 100vh; padding: 40px 20px;
+  font-family: -apple-system, 'SF Pro Display', sans-serif;
+}
+
+/* ════════════════════════════════
+   PHONE SHELL
+════════════════════════════════ */
+.phone {
+  width: 300px; height: 720px;
+  background: #ffffff;
+  border-radius: 42px;
+  border: 1.5px solid rgba(255,255,255,0.9);
+  overflow: hidden; display: flex; flex-direction: column;
+  position: relative;
+  box-shadow:
+    0 40px 100px rgba(30, 60, 120, 0.18),
+    0 12px 32px rgba(30, 60, 120, 0.1),
+    inset 0 1px 0 rgba(255,255,255,1);
+}
+
+/* ── Shared: status + nav bar ── */
+.sbar {
+  display: flex; justify-content: space-between;
+  padding: 13px 20px 2px; font-size: 11px; color: #64748b; flex-shrink: 0;
+}
+.nbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 5px 18px 8px; flex-shrink: 0;
+}
+.app-logo {
+  display: flex; align-items: center; gap: 7px;
+  font-size: 19px; font-weight: 700; color: #0f172a;
+  letter-spacing: -0.3px;
+}
+.boarding-badge {
+  background: rgba(37,99,235,0.1); border: 1px solid rgba(37,99,235,0.22);
+  border-radius: 20px; padding: 4px 12px; font-size: 11px; color: #2563eb;
+  cursor: pointer; transition: all 0.2s ease; font-weight: 500;
+}
+.boarding-badge:hover { background: rgba(37,99,235,0.18); transform: scale(1.03); }
+
+/* ── Shared: bottom nav ── */
+.bnav {
+  display: flex; justify-content: space-around; padding: 8px 6px 16px;
+  border-top: 1px solid rgba(0,0,0,0.05); flex-shrink: 0;
+  background: rgba(255,255,255,0.95); backdrop-filter: blur(12px);
+  position: relative; z-index: 10;
+}
+.bni {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  font-size: 9px; color: #94a3b8; cursor: pointer;
+  transition: color 0.2s, background 0.2s, transform 0.15s;
+  padding: 5px 10px; border-radius: 12px; min-width: 48px;
+}
+.bni:hover { color: #64748b; transform: translateY(-1px); }
+.bni:active { transform: scale(0.92); }
+.bni.on {
+  color: #2563eb;
+  background: rgba(37,99,235,0.09);
+}
+
+/* ── Tab screens ── */
+.screen { display: none; flex: 1; flex-direction: column; overflow: hidden; }
+.screen.active {
+  display: flex;
+  animation: screenFadeIn 0.22s ease both;
+}
+@keyframes tailorProgress {
+  0%   { width: 0%; }
+  30%  { width: 45%; }
+  60%  { width: 72%; }
+  85%  { width: 88%; }
+  100% { width: 92%; }
+}
+@keyframes swipeLeft {
+  from { transform: translateX(0) rotate(0deg);    opacity: 1; }
+  to   { transform: translateX(-140%) rotate(-22deg); opacity: 0; }
+}
+@keyframes swipeRight {
+  from { transform: translateX(0) rotate(0deg);    opacity: 1; }
+  to   { transform: translateX(140%) rotate(22deg);  opacity: 0; }
+}
+@keyframes spin {
+  from { transform: rotate(0deg) translateX(2px); }
+  50%  { transform: rotate(20deg) translateX(4px); }
+  to   { transform: rotate(0deg) translateX(2px); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.15); }
+}
+@keyframes screenFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ════════════════════════════════
+   TAB 1 — SWIPE
+════════════════════════════════ */
+.card-area { margin: 0 12px 8px; position: relative; flex: 1; }
+.bg-card {
+  position: absolute; inset: 0; border-radius: 24px;
+  background: #f8fafc; border: 1px solid #e2e8f0;
+  transition: transform 0.4s cubic-bezier(0.34, 1.2, 0.64, 1);
+}
+.bg-card.b2 {
+  transform: scale(0.94) translateY(10px); z-index: 1;
+  background: #f3f7fd;
+  box-shadow: 0 4px 16px rgba(30,60,120,0.06);
+}
+.bg-card.b3 {
+  transform: scale(0.88) translateY(22px); z-index: 0;
+  background: #ecf2fb;
+  box-shadow: 0 2px 8px rgba(30,60,120,0.04);
+}
+.job-card {
+  position: absolute; inset: 0; z-index: 2; border-radius: 24px;
+  overflow: hidden; border: 1px solid rgba(200,215,235,0.8);
+  transition: transform 0.32s cubic-bezier(0.34, 1.1, 0.64, 1), opacity 0.32s ease,
+              box-shadow 0.2s ease;
+  display: flex; flex-direction: column;
+  box-shadow: 0 8px 32px rgba(30,60,120,0.12), 0 2px 8px rgba(30,60,120,0.06);
+}
+.job-card:hover {
+  box-shadow: 0 14px 40px rgba(30,60,120,0.18), 0 4px 12px rgba(30,60,120,0.08);
+  transform: translateY(-2px);
+}
+.card-hero { height: 140px; position: relative; overflow: hidden; flex-shrink: 0; }
+.card-body {
+  padding: 14px 16px 20px; background: #ffffff;
+  display: flex; flex-direction: column; justify-content: space-evenly; flex: 1;
+}
+.co-row { display: flex; align-items: center; gap: 9px; }
+.co-badge {
+  width: 36px; height: 36px; border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.co-name { font-size: 11px; color: #64748b; }
+.role-title { font-size: 16px; font-weight: 700; color: #0f172a; line-height: 1.2; letter-spacing: -0.2px; }
+.flight-pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: rgba(37,99,235,0.1); border: 1px solid rgba(37,99,235,0.25);
+  border-radius: 20px; padding: 3px 10px; font-size: 11px; color: #2563eb;
+  width: fit-content; font-weight: 600;
+}
+.chips { display: flex; gap: 5px; }
+.chip {
+  background: rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 6px; padding: 3px 8px; font-size: 10px; color: #64748b;
+}
+
+/* ── Action buttons — spread to sides ── */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 36px 18px;
+}
+.abtn {
+  border: none; cursor: pointer; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.18s ease, background 0.18s ease;
+  background: none;
+}
+.abtn:hover  { transform: scale(1.12); }
+.abtn:active { transform: scale(0.9); }
+.abtn.miss {
+  width: 50px; height: 50px;
+  background: rgba(220,70,70,0.1); border: 1.5px solid rgba(220,70,70,0.3);
+  box-shadow: 0 4px 16px rgba(220,70,70,0.12);
+}
+.abtn.miss:hover {
+  background: rgba(220,70,70,0.18);
+  box-shadow: 0 6px 22px rgba(220,70,70,0.22);
+}
+.abtn.land {
+  width: 62px; height: 62px;
+  background: rgba(37,99,235,0.15); border: 1.5px solid rgba(37,99,235,0.38);
+  box-shadow: 0 6px 24px rgba(37,99,235,0.22);
+}
+.abtn.land:hover {
+  background: rgba(37,99,235,0.24);
+  box-shadow: 0 10px 32px rgba(37,99,235,0.34);
+}
+
+/* ════════════════════════════════
+   TAB 3 — RESUME
+════════════════════════════════ */
+.resume-scroll { flex: 1; overflow-y: auto; scrollbar-width: none; padding: 8px 0 8px; }
+.resume-scroll::-webkit-scrollbar { display: none; }
+.r-card {
+  margin: 0 14px 10px;
+  background: rgba(255,255,255,0.8); border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 18px; padding: 14px;
+  box-shadow: 0 2px 12px rgba(30,60,120,0.06);
+  transition: box-shadow 0.2s;
+}
+.r-card:hover { box-shadow: 0 4px 20px rgba(30,60,120,0.1); }
+.r-label { font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em; color: #2563eb; font-weight: 700; margin-bottom: 6px; }
+
+/* ════════════════════════════════
+   TAB 4 — FLIGHTS
+════════════════════════════════ */
+.flights-scroll { flex: 1; overflow-y: auto; scrollbar-width: none; padding: 8px 0; }
+.flights-scroll::-webkit-scrollbar { display: none; }
+.flight-header { padding: 4px 14px 10px; }
+.flight-stats { display: flex; gap: 8px; }
+.fstat {
+  flex: 1;
+  background: linear-gradient(135deg, rgba(37,99,235,0.06), rgba(37,99,235,0.02));
+  border: 1px solid rgba(37,99,235,0.12);
+  border-radius: 14px; padding: 10px; text-align: center;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.fstat:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37,99,235,0.1); }
+.fstat-num { font-size: 20px; font-weight: 800; color: #1e293b; letter-spacing: -0.5px; }
+.fstat-lbl { font-size: 9px; color: #94a3b8; margin-top: 2px; font-weight: 500; }
+.flights-group-label {
+  padding: 10px 14px 6px; font-size: 9px;
+  text-transform: uppercase; letter-spacing: 0.08em; color: #94a3b8; font-weight: 600;
+}
+.flight-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; border-bottom: 1px solid rgba(0,0,0,0.04);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.18s cubic-bezier(0.34, 1.2, 0.64, 1);
+}
+.flight-row:hover { background: rgba(37,99,235,0.04); transform: translateX(3px); }
+.flight-row:active { transform: scale(0.98); }
+.flight-row:last-child { border-bottom: none; }
+.fl-logo {
+  width: 36px; height: 36px; border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; color: #ffffff; flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.fl-info { flex: 1; min-width: 0; }
+.fl-co { font-size: 12px; font-weight: 600; color: #334155; }
+.fl-role { font-size: 10px; color: #94a3b8; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fl-date { font-size: 9px; color: #bdc5d0; margin-top: 2px; }
+.fl-badge {
+  font-size: 9px; font-weight: 700; padding: 3px 10px;
+  border-radius: 8px; flex-shrink: 0; letter-spacing: 0.02em;
+}
+.fl-badge.airborne { background: rgba(37,99,235,0.12); color: #2563eb; border: 1px solid rgba(37,99,235,0.25); }
+.fl-badge.approach { background: rgba(22,163,74,0.12); color: #16a34a; border: 1px solid rgba(22,163,74,0.25); }
+.fl-badge.diverted  { background: rgba(100,116,139,0.1); color: #64748b; border: 1px solid rgba(100,116,139,0.2); }
+.fl-badge.landed    { background: rgba(234,179,8,0.12); color: #ca8a04; border: 1px solid rgba(234,179,8,0.28); }
+
+/* ════════════════════════════════
+   TAB 5 — PROFILE
+════════════════════════════════ */
+.profile-scroll {
+  flex: 1; overflow-y: auto; scrollbar-width: none;
+  padding: 8px 14px 14px; display: flex; flex-direction: column; gap: 10px;
+}
+.profile-scroll::-webkit-scrollbar { display: none; }
+
+.profile-section {
+  background: #fff; border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 16px; padding: 12px;
+  box-shadow: 0 2px 10px rgba(30,60,120,0.05);
+  transition: box-shadow 0.2s;
+}
+.profile-section:hover { box-shadow: 0 4px 18px rgba(30,60,120,0.09); }
+
+.profile-section-title {
+  font-size: 9px; text-transform: uppercase; letter-spacing: 0.08em;
+  font-weight: 700; color: #2563eb; margin-bottom: 8px;
+}
+
+.profile-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+
+.profile-chip {
+  font-size: 10px; padding: 4px 10px; border-radius: 20px;
+  background: #f1f5f9; color: #64748b; cursor: pointer;
+  transition: all 0.18s cubic-bezier(0.34, 1.4, 0.64, 1);
+  border: 1.5px solid transparent; user-select: none;
+}
+.profile-chip:hover { background: #e2e8f0; transform: scale(1.05); }
+.profile-chip:active { transform: scale(0.92); }
+.profile-chip.active {
+  background: #dbeafe; color: #1d4ed8; border-color: #93c5fd; font-weight: 600;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.15);
+}
+.profile-chip.active:hover { background: #bfdbfe; }
+
+/* ════════════════════════════════
+   OVERLAY ANIMATIONS
+════════════════════════════════ */
+@keyframes overlaySlideUp {
+  from { opacity: 0; transform: translateY(40px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes overlayFadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+@keyframes cardPopIn {
+  from { opacity: 0; transform: scale(0.72); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes resumeScaleIn {
+  from { opacity: 0; transform: scale(0.08); border-radius: 60px; }
+  to   { opacity: 1; transform: scale(1);    border-radius: 40px; }
+}
+.overlay-enter {
+  animation: overlaySlideUp 0.34s cubic-bezier(0.34, 1.06, 0.64, 1) both;
+}
+.overlay-scale-enter {
+  transform-origin: center center;
+  animation: resumeScaleIn 0.42s cubic-bezier(0.34, 1.08, 0.64, 1) both;
+}
+
+/* ════════════════════════════════
+   DETAIL OVERLAY (over all screens)
+════════════════════════════════ */
+.detail-overlay {
+  position: absolute; inset: 0; z-index: 200; background: #ffffff;
+  border-radius: 40px; display: flex; flex-direction: column;
+  transform: scale(0.9) translateY(50px); opacity: 0; pointer-events: none;
+  transition: transform 0.38s cubic-bezier(0.34, 1.04, 0.64, 1), opacity 0.28s ease;
+}
+.detail-overlay.open { transform: scale(1) translateY(0); opacity: 1; pointer-events: all; }
+.d-scroll { flex: 1; overflow-y: auto; overflow-x: hidden; scrollbar-width: none; }
+.d-scroll::-webkit-scrollbar { display: none; }

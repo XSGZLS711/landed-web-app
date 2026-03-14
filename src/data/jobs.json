@@ -1,0 +1,2001 @@
+[
+  {
+    "id": "job-1",
+    "company": "Kraken",
+    "role": "DevOps Engineer",
+    "location": "New York",
+    "salary": "$163k",
+    "type": "Part-time",
+    "match": 73,
+    "description": "Join Kraken as a DevOps Engineer. We are looking for a candidate skilled in React, AWS, Tailwind CSS, Kotlin, Docker. This is a Part-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "React",
+      "AWS",
+      "Tailwind CSS",
+      "Kotlin",
+      "Docker"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "K",
+    "logoBg": "hsl(151.22043537881407, 70%, 20%)",
+    "logoCol": "hsl(2.773012872932461, 100%, 80%)"
+  },
+  {
+    "id": "job-2",
+    "company": "Ramp",
+    "role": "Fullstack Developer",
+    "location": "New York",
+    "salary": "$175k",
+    "type": "Contract",
+    "match": 89,
+    "description": "Join Ramp as a Fullstack Developer. We are looking for a candidate skilled in AWS, TypeScript, GraphQL, SQL. This is a Contract position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "AWS",
+      "TypeScript",
+      "GraphQL",
+      "SQL"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(219.1988118759138, 70%, 20%)",
+    "logoCol": "hsl(47.86271529520463, 100%, 80%)"
+  },
+  {
+    "id": "job-3",
+    "company": "Deel",
+    "role": "Mobile Developer (Android)",
+    "location": "Austin",
+    "salary": "$108k",
+    "type": "Contract",
+    "match": 86,
+    "description": "Join Deel as a Mobile Developer (Android). We are looking for a candidate skilled in Rust, Figma, Kubernetes, System Design. This is a Contract position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Rust",
+      "Figma",
+      "Kubernetes",
+      "System Design"
+    ],
+    "gradient": "linear-gradient(135deg, #064e3b 0%, #065f46 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(332.79143729406314, 70%, 20%)",
+    "logoCol": "hsl(157.96041588009615, 100%, 80%)"
+  },
+  {
+    "id": "job-4",
+    "company": "Lyft",
+    "role": "Quality Assurance Engineer",
+    "location": "Tokyo",
+    "salary": "$146k",
+    "type": "Full-time",
+    "match": 73,
+    "description": "Join Lyft as a Quality Assurance Engineer. We are looking for a candidate skilled in GraphQL, Go, Swift. This is a Full-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "Go",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #064e3b 0%, #065f46 100%)",
+    "logoTxt": "L",
+    "logoBg": "hsl(135.57481903050427, 70%, 20%)",
+    "logoCol": "hsl(172.17569559246198, 100%, 80%)"
+  },
+  {
+    "id": "job-5",
+    "company": "Linear",
+    "role": "Backend Engineer",
+    "location": "Berlin",
+    "salary": "$109k",
+    "type": "Part-time",
+    "match": 85,
+    "description": "Join Linear as a Backend Engineer. We are looking for a candidate skilled in Rust, Python, Kotlin, Swift, Tailwind CSS. This is a Part-time position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Rust",
+      "Python",
+      "Kotlin",
+      "Swift",
+      "Tailwind CSS"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "L",
+    "logoBg": "hsl(289.4065036806734, 70%, 20%)",
+    "logoCol": "hsl(249.39461174334232, 100%, 80%)"
+  },
+  {
+    "id": "job-6",
+    "company": "Scale AI",
+    "role": "Solutions Architect",
+    "location": "Berlin",
+    "salary": "$104k",
+    "type": "Contract",
+    "match": 83,
+    "description": "Join Scale AI as a Solutions Architect. We are looking for a candidate skilled in Kotlin, System Design, Docker, AWS, Node.js. This is a Contract position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "System Design",
+      "Docker",
+      "AWS",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(307.12858505284754, 70%, 20%)",
+    "logoCol": "hsl(204.86589412707391, 100%, 80%)"
+  },
+  {
+    "id": "job-7",
+    "company": "Revolut",
+    "role": "DevOps Engineer",
+    "location": "Singapore",
+    "salary": "$223k",
+    "type": "Full-time",
+    "match": 96,
+    "description": "Join Revolut as a DevOps Engineer. We are looking for a candidate skilled in GraphQL, Kotlin, Swift. This is a Full-time position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "Kotlin",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(23.424363079301443, 70%, 20%)",
+    "logoCol": "hsl(134.88430363145596, 100%, 80%)"
+  },
+  {
+    "id": "job-8",
+    "company": "Spotify",
+    "role": "Backend Engineer",
+    "location": "Tokyo",
+    "salary": "$188k",
+    "type": "Intern",
+    "match": 91,
+    "description": "Join Spotify as a Backend Engineer. We are looking for a candidate skilled in TypeScript, Kotlin, Machine Learning, Python. This is a Intern position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "TypeScript",
+      "Kotlin",
+      "Machine Learning",
+      "Python"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(179.1398719368979, 70%, 20%)",
+    "logoCol": "hsl(95.88648649132901, 100%, 80%)"
+  },
+  {
+    "id": "job-9",
+    "company": "Spotify",
+    "role": "Quality Assurance Engineer",
+    "location": "Tokyo",
+    "salary": "$100k",
+    "type": "Full-time",
+    "match": 80,
+    "description": "Join Spotify as a Quality Assurance Engineer. We are looking for a candidate skilled in Rust, Kubernetes, Docker. This is a Full-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "Rust",
+      "Kubernetes",
+      "Docker"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(243.44042879264836, 70%, 20%)",
+    "logoCol": "hsl(144.45466293167678, 100%, 80%)"
+  },
+  {
+    "id": "job-10",
+    "company": "PlanetScale",
+    "role": "Solutions Architect",
+    "location": "Singapore",
+    "salary": "$157k",
+    "type": "Part-time",
+    "match": 96,
+    "description": "Join PlanetScale as a Solutions Architect. We are looking for a candidate skilled in React, Kotlin, Rust. This is a Part-time position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "React",
+      "Kotlin",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "P",
+    "logoBg": "hsl(19.349127000777475, 70%, 20%)",
+    "logoCol": "hsl(232.16984849019542, 100%, 80%)"
+  },
+  {
+    "id": "job-11",
+    "company": "Retool",
+    "role": "Frontend Engineer",
+    "location": "London",
+    "salary": "$209k",
+    "type": "Intern",
+    "match": 66,
+    "description": "Join Retool as a Frontend Engineer. We are looking for a candidate skilled in Kotlin, Swift, NoSQL. This is a Intern position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "Swift",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(7.910319698987105, 70%, 20%)",
+    "logoCol": "hsl(114.45402106081566, 100%, 80%)"
+  },
+  {
+    "id": "job-12",
+    "company": "Atlassian",
+    "role": "UX Researcher",
+    "location": "Berlin",
+    "salary": "$114k",
+    "type": "Full-time",
+    "match": 86,
+    "description": "Join Atlassian as a UX Researcher. We are looking for a candidate skilled in Machine Learning, React, AWS, Kubernetes. This is a Full-time position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Machine Learning",
+      "React",
+      "AWS",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(273.3693340201625, 70%, 20%)",
+    "logoCol": "hsl(149.73975768052958, 100%, 80%)"
+  },
+  {
+    "id": "job-13",
+    "company": "Lyft",
+    "role": "Fullstack Developer",
+    "location": "San Francisco",
+    "salary": "$233k",
+    "type": "Contract",
+    "match": 63,
+    "description": "Join Lyft as a Fullstack Developer. We are looking for a candidate skilled in PyTorch, SQL, Docker, Swift. This is a Contract position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "PyTorch",
+      "SQL",
+      "Docker",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "L",
+    "logoBg": "hsl(134.9722184241175, 70%, 20%)",
+    "logoCol": "hsl(333.48479443893956, 100%, 80%)"
+  },
+  {
+    "id": "job-14",
+    "company": "PlanetScale",
+    "role": "Security Engineer",
+    "location": "New York",
+    "salary": "$246k",
+    "type": "Part-time",
+    "match": 85,
+    "description": "Join PlanetScale as a Security Engineer. We are looking for a candidate skilled in TypeScript, SQL, NoSQL, Go. This is a Part-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "TypeScript",
+      "SQL",
+      "NoSQL",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "P",
+    "logoBg": "hsl(3.1829860432876034, 70%, 20%)",
+    "logoCol": "hsl(29.224892012272253, 100%, 80%)"
+  },
+  {
+    "id": "job-15",
+    "company": "Notion",
+    "role": "Product Manager",
+    "location": "Austin",
+    "salary": "$155k",
+    "type": "Part-time",
+    "match": 74,
+    "description": "Join Notion as a Product Manager. We are looking for a candidate skilled in Python, UI/UX, React, PyTorch, Machine Learning. This is a Part-time position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Python",
+      "UI/UX",
+      "React",
+      "PyTorch",
+      "Machine Learning"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "N",
+    "logoBg": "hsl(266.26399204319256, 70%, 20%)",
+    "logoCol": "hsl(244.57595603569152, 100%, 80%)"
+  },
+  {
+    "id": "job-16",
+    "company": "Slack",
+    "role": "Engineering Manager",
+    "location": "London",
+    "salary": "$125k",
+    "type": "Full-time",
+    "match": 86,
+    "description": "Join Slack as a Engineering Manager. We are looking for a candidate skilled in Kotlin, NoSQL, SQL. This is a Full-time position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "NoSQL",
+      "SQL"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(316.39165089333636, 70%, 20%)",
+    "logoCol": "hsl(148.06738296545623, 100%, 80%)"
+  },
+  {
+    "id": "job-17",
+    "company": "Vercel",
+    "role": "Product Manager",
+    "location": "Berlin",
+    "salary": "$132k",
+    "type": "Part-time",
+    "match": 87,
+    "description": "Join Vercel as a Product Manager. We are looking for a candidate skilled in GraphQL, UI/UX, Python, React. This is a Part-time position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "UI/UX",
+      "Python",
+      "React"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "V",
+    "logoBg": "hsl(257.1978198172398, 70%, 20%)",
+    "logoCol": "hsl(274.8852442675441, 100%, 80%)"
+  },
+  {
+    "id": "job-18",
+    "company": "Google",
+    "role": "Solutions Architect",
+    "location": "London",
+    "salary": "$182k",
+    "type": "Contract",
+    "match": 96,
+    "description": "Join Google as a Solutions Architect. We are looking for a candidate skilled in Kotlin, Machine Learning, Figma. This is a Contract position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "Machine Learning",
+      "Figma"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(257.11437750152305, 70%, 20%)",
+    "logoCol": "hsl(251.3135988810226, 100%, 80%)"
+  },
+  {
+    "id": "job-19",
+    "company": "GitHub",
+    "role": "ML Engineer",
+    "location": "New York",
+    "salary": "$189k",
+    "type": "Part-time",
+    "match": 92,
+    "description": "Join GitHub as a ML Engineer. We are looking for a candidate skilled in PyTorch, SQL, Rust. This is a Part-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "PyTorch",
+      "SQL",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(227.71770149188683, 70%, 20%)",
+    "logoCol": "hsl(287.7004489260243, 100%, 80%)"
+  },
+  {
+    "id": "job-20",
+    "company": "Scale AI",
+    "role": "DevOps Engineer",
+    "location": "Austin",
+    "salary": "$231k",
+    "type": "Intern",
+    "match": 77,
+    "description": "Join Scale AI as a DevOps Engineer. We are looking for a candidate skilled in System Design, Node.js, GraphQL. This is a Intern position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "Node.js",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #4c1d95 0%, #5b21b6 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(318.97011052223917, 70%, 20%)",
+    "logoCol": "hsl(106.96323679589851, 100%, 80%)"
+  },
+  {
+    "id": "job-21",
+    "company": "Spotify",
+    "role": "Technical Writer",
+    "location": "San Francisco",
+    "salary": "$182k",
+    "type": "Intern",
+    "match": 81,
+    "description": "Join Spotify as a Technical Writer. We are looking for a candidate skilled in Machine Learning, System Design, Tailwind CSS, PyTorch, Figma. This is a Intern position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Machine Learning",
+      "System Design",
+      "Tailwind CSS",
+      "PyTorch",
+      "Figma"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(147.19915847820505, 70%, 20%)",
+    "logoCol": "hsl(177.9887855016731, 100%, 80%)"
+  },
+  {
+    "id": "job-22",
+    "company": "Remote",
+    "role": "Engineering Manager",
+    "location": "Berlin",
+    "salary": "$247k",
+    "type": "Contract",
+    "match": 67,
+    "description": "Join Remote as a Engineering Manager. We are looking for a candidate skilled in TypeScript, Rust, UI/UX. This is a Contract position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "TypeScript",
+      "Rust",
+      "UI/UX"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(148.50424265216523, 70%, 20%)",
+    "logoCol": "hsl(298.6063933609777, 100%, 80%)"
+  },
+  {
+    "id": "job-23",
+    "company": "Snapchat",
+    "role": "Solutions Architect",
+    "location": "Tokyo",
+    "salary": "$82k",
+    "type": "Full-time",
+    "match": 74,
+    "description": "Join Snapchat as a Solutions Architect. We are looking for a candidate skilled in GraphQL, Node.js, SQL. This is a Full-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "Node.js",
+      "SQL"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(187.04906035009125, 70%, 20%)",
+    "logoCol": "hsl(350.95899379027145, 100%, 80%)"
+  },
+  {
+    "id": "job-24",
+    "company": "Mistral",
+    "role": "Growth Hacker",
+    "location": "Tokyo",
+    "salary": "$222k",
+    "type": "Contract",
+    "match": 88,
+    "description": "Join Mistral as a Growth Hacker. We are looking for a candidate skilled in UI/UX, Rust, Docker, PyTorch, Node.js. This is a Contract position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "Rust",
+      "Docker",
+      "PyTorch",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(88.14665632566083, 70%, 20%)",
+    "logoCol": "hsl(8.258205908074334, 100%, 80%)"
+  },
+  {
+    "id": "job-25",
+    "company": "Shopify",
+    "role": "Quality Assurance Engineer",
+    "location": "San Francisco",
+    "salary": "$189k",
+    "type": "Contract",
+    "match": 86,
+    "description": "Join Shopify as a Quality Assurance Engineer. We are looking for a candidate skilled in Kubernetes, Figma, TypeScript, NoSQL, AWS. This is a Contract position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "Figma",
+      "TypeScript",
+      "NoSQL",
+      "AWS"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(47.93171439360657, 70%, 20%)",
+    "logoCol": "hsl(281.84431807366605, 100%, 80%)"
+  },
+  {
+    "id": "job-26",
+    "company": "Pinterest",
+    "role": "Graphics Programmer",
+    "location": "New York",
+    "salary": "$227k",
+    "type": "Intern",
+    "match": 71,
+    "description": "Join Pinterest as a Graphics Programmer. We are looking for a candidate skilled in UI/UX, PyTorch, Go, Rust, Figma. This is a Intern position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "PyTorch",
+      "Go",
+      "Rust",
+      "Figma"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "P",
+    "logoBg": "hsl(313.96757341772013, 70%, 20%)",
+    "logoCol": "hsl(244.3254292027064, 100%, 80%)"
+  },
+  {
+    "id": "job-27",
+    "company": "Uber",
+    "role": "Technical Writer",
+    "location": "Sydney",
+    "salary": "$183k",
+    "type": "Part-time",
+    "match": 69,
+    "description": "Join Uber as a Technical Writer. We are looking for a candidate skilled in Tailwind CSS, React, NoSQL, System Design, Kubernetes. This is a Part-time position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "React",
+      "NoSQL",
+      "System Design",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "U",
+    "logoBg": "hsl(278.4651651486563, 70%, 20%)",
+    "logoCol": "hsl(19.985516168708287, 100%, 80%)"
+  },
+  {
+    "id": "job-28",
+    "company": "SpaceX",
+    "role": "Mobile Developer (Android)",
+    "location": "Remote",
+    "salary": "$100k",
+    "type": "Contract",
+    "match": 65,
+    "description": "Join SpaceX as a Mobile Developer (Android). We are looking for a candidate skilled in Python, Machine Learning, Node.js, AWS. This is a Contract position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Node.js",
+      "AWS"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(339.74741665314224, 70%, 20%)",
+    "logoCol": "hsl(254.42233906402012, 100%, 80%)"
+  },
+  {
+    "id": "job-29",
+    "company": "Stripe",
+    "role": "Mobile Developer (iOS)",
+    "location": "San Francisco",
+    "salary": "$137k",
+    "type": "Contract",
+    "match": 70,
+    "description": "Join Stripe as a Mobile Developer (iOS). We are looking for a candidate skilled in Go, Docker, Machine Learning, React, GraphQL. This is a Contract position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "Docker",
+      "Machine Learning",
+      "React",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(281.4658195855368, 70%, 20%)",
+    "logoCol": "hsl(113.39792557074094, 100%, 80%)"
+  },
+  {
+    "id": "job-30",
+    "company": "Databricks",
+    "role": "Backend Engineer",
+    "location": "Austin",
+    "salary": "$110k",
+    "type": "Contract",
+    "match": 91,
+    "description": "Join Databricks as a Backend Engineer. We are looking for a candidate skilled in System Design, Rust, AWS, GraphQL. This is a Contract position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "Rust",
+      "AWS",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(278.9976322022142, 70%, 20%)",
+    "logoCol": "hsl(44.02781285459597, 100%, 80%)"
+  },
+  {
+    "id": "job-31",
+    "company": "Netflix",
+    "role": "DevOps Engineer",
+    "location": "Remote",
+    "salary": "$129k",
+    "type": "Full-time",
+    "match": 65,
+    "description": "Join Netflix as a DevOps Engineer. We are looking for a candidate skilled in System Design, Figma, Go, NoSQL. This is a Full-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "Figma",
+      "Go",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "N",
+    "logoBg": "hsl(121.67975208560605, 70%, 20%)",
+    "logoCol": "hsl(171.41446400374016, 100%, 80%)"
+  },
+  {
+    "id": "job-32",
+    "company": "Slack",
+    "role": "Backend Engineer",
+    "location": "Remote",
+    "salary": "$106k",
+    "type": "Full-time",
+    "match": 72,
+    "description": "Join Slack as a Backend Engineer. We are looking for a candidate skilled in PyTorch, Node.js, React, System Design, Swift. This is a Full-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "PyTorch",
+      "Node.js",
+      "React",
+      "System Design",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(102.98639952854143, 70%, 20%)",
+    "logoCol": "hsl(26.559500972029994, 100%, 80%)"
+  },
+  {
+    "id": "job-33",
+    "company": "Docker",
+    "role": "Product Designer",
+    "location": "Singapore",
+    "salary": "$193k",
+    "type": "Full-time",
+    "match": 81,
+    "description": "Join Docker as a Product Designer. We are looking for a candidate skilled in NoSQL, Python, PyTorch, GraphQL, Swift. This is a Full-time position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "Python",
+      "PyTorch",
+      "GraphQL",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(233.33499456488917, 70%, 20%)",
+    "logoCol": "hsl(219.8254547499033, 100%, 80%)"
+  },
+  {
+    "id": "job-34",
+    "company": "Vercel",
+    "role": "Backend Engineer",
+    "location": "New York",
+    "salary": "$133k",
+    "type": "Full-time",
+    "match": 71,
+    "description": "Join Vercel as a Backend Engineer. We are looking for a candidate skilled in Python, Machine Learning, SQL, Swift. This is a Full-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "V",
+    "logoBg": "hsl(166.4735432982734, 70%, 20%)",
+    "logoCol": "hsl(352.61868660808017, 100%, 80%)"
+  },
+  {
+    "id": "job-35",
+    "company": "Supabase",
+    "role": "Product Manager",
+    "location": "Austin",
+    "salary": "$132k",
+    "type": "Contract",
+    "match": 82,
+    "description": "Join Supabase as a Product Manager. We are looking for a candidate skilled in TypeScript, NoSQL, Go, Node.js. This is a Contract position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "TypeScript",
+      "NoSQL",
+      "Go",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(24.25598042598882, 70%, 20%)",
+    "logoCol": "hsl(8.884851319019567, 100%, 80%)"
+  },
+  {
+    "id": "job-36",
+    "company": "Tesla",
+    "role": "Data Scientist",
+    "location": "New York",
+    "salary": "$89k",
+    "type": "Intern",
+    "match": 62,
+    "description": "Join Tesla as a Data Scientist. We are looking for a candidate skilled in GraphQL, NoSQL, Rust. This is a Intern position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "NoSQL",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "T",
+    "logoBg": "hsl(20.642017102271698, 70%, 20%)",
+    "logoCol": "hsl(80.6272001616966, 100%, 80%)"
+  },
+  {
+    "id": "job-37",
+    "company": "Revolut",
+    "role": "Technical Writer",
+    "location": "Seattle",
+    "salary": "$230k",
+    "type": "Intern",
+    "match": 97,
+    "description": "Join Revolut as a Technical Writer. We are looking for a candidate skilled in Kubernetes, React, Swift. This is a Intern position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "React",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(314.17734458545146, 70%, 20%)",
+    "logoCol": "hsl(348.25536997624994, 100%, 80%)"
+  },
+  {
+    "id": "job-38",
+    "company": "Airbnb",
+    "role": "Data Scientist",
+    "location": "Sydney",
+    "salary": "$172k",
+    "type": "Intern",
+    "match": 76,
+    "description": "Join Airbnb as a Data Scientist. We are looking for a candidate skilled in Kubernetes, UI/UX, AWS, SQL, React. This is a Intern position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "UI/UX",
+      "AWS",
+      "SQL",
+      "React"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(297.0920060406576, 70%, 20%)",
+    "logoCol": "hsl(157.4539392798836, 100%, 80%)"
+  },
+  {
+    "id": "job-39",
+    "company": "Atlassian",
+    "role": "Fullstack Developer",
+    "location": "Sydney",
+    "salary": "$179k",
+    "type": "Contract",
+    "match": 74,
+    "description": "Join Atlassian as a Fullstack Developer. We are looking for a candidate skilled in UI/UX, Python, SQL, System Design. This is a Contract position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "Python",
+      "SQL",
+      "System Design"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(292.95896960202117, 70%, 20%)",
+    "logoCol": "hsl(33.96329482209657, 100%, 80%)"
+  },
+  {
+    "id": "job-40",
+    "company": "Kraken",
+    "role": "Product Manager",
+    "location": "New York",
+    "salary": "$120k",
+    "type": "Contract",
+    "match": 89,
+    "description": "Join Kraken as a Product Manager. We are looking for a candidate skilled in GraphQL, UI/UX, Node.js. This is a Contract position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "UI/UX",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "K",
+    "logoBg": "hsl(172.36843440368781, 70%, 20%)",
+    "logoCol": "hsl(252.82939545668793, 100%, 80%)"
+  },
+  {
+    "id": "job-41",
+    "company": "GitLab",
+    "role": "Graphics Programmer",
+    "location": "Remote",
+    "salary": "$197k",
+    "type": "Contract",
+    "match": 86,
+    "description": "Join GitLab as a Graphics Programmer. We are looking for a candidate skilled in React, Figma, Go. This is a Contract position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "React",
+      "Figma",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(175.6017098460178, 70%, 20%)",
+    "logoCol": "hsl(296.3059873366322, 100%, 80%)"
+  },
+  {
+    "id": "job-42",
+    "company": "Shopify",
+    "role": "Growth Hacker",
+    "location": "Singapore",
+    "salary": "$170k",
+    "type": "Intern",
+    "match": 65,
+    "description": "Join Shopify as a Growth Hacker. We are looking for a candidate skilled in Tailwind CSS, Kotlin, React, Rust. This is a Intern position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "Kotlin",
+      "React",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(112.16704070842253, 70%, 20%)",
+    "logoCol": "hsl(162.6519456553039, 100%, 80%)"
+  },
+  {
+    "id": "job-43",
+    "company": "Retool",
+    "role": "Product Designer",
+    "location": "Tokyo",
+    "salary": "$81k",
+    "type": "Part-time",
+    "match": 76,
+    "description": "Join Retool as a Product Designer. We are looking for a candidate skilled in SQL, Kubernetes, Rust, System Design. This is a Part-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "SQL",
+      "Kubernetes",
+      "Rust",
+      "System Design"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(255.62509411336225, 70%, 20%)",
+    "logoCol": "hsl(141.21668342758497, 100%, 80%)"
+  },
+  {
+    "id": "job-44",
+    "company": "Snapchat",
+    "role": "DevOps Engineer",
+    "location": "Berlin",
+    "salary": "$121k",
+    "type": "Intern",
+    "match": 89,
+    "description": "Join Snapchat as a DevOps Engineer. We are looking for a candidate skilled in UI/UX, NoSQL, Rust, Go, System Design. This is a Intern position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "NoSQL",
+      "Rust",
+      "Go",
+      "System Design"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(27.658412250120378, 70%, 20%)",
+    "logoCol": "hsl(205.93951156511457, 100%, 80%)"
+  },
+  {
+    "id": "job-45",
+    "company": "Coinbase",
+    "role": "Mobile Developer (Android)",
+    "location": "Sydney",
+    "salary": "$248k",
+    "type": "Full-time",
+    "match": 76,
+    "description": "Join Coinbase as a Mobile Developer (Android). We are looking for a candidate skilled in NoSQL, PyTorch, GraphQL, Node.js. This is a Full-time position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "PyTorch",
+      "GraphQL",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "C",
+    "logoBg": "hsl(14.395680784919458, 70%, 20%)",
+    "logoCol": "hsl(304.96071919016, 100%, 80%)"
+  },
+  {
+    "id": "job-46",
+    "company": "Vanta",
+    "role": "UX Researcher",
+    "location": "New York",
+    "salary": "$127k",
+    "type": "Full-time",
+    "match": 95,
+    "description": "Join Vanta as a UX Researcher. We are looking for a candidate skilled in GraphQL, System Design, Node.js, Machine Learning. This is a Full-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "System Design",
+      "Node.js",
+      "Machine Learning"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "V",
+    "logoBg": "hsl(335.10855178641543, 70%, 20%)",
+    "logoCol": "hsl(60.10873358361914, 100%, 80%)"
+  },
+  {
+    "id": "job-47",
+    "company": "Coinbase",
+    "role": "Solutions Architect",
+    "location": "London",
+    "salary": "$194k",
+    "type": "Part-time",
+    "match": 88,
+    "description": "Join Coinbase as a Solutions Architect. We are looking for a candidate skilled in Tailwind CSS, GraphQL, Go, Figma, Machine Learning. This is a Part-time position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "GraphQL",
+      "Go",
+      "Figma",
+      "Machine Learning"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "C",
+    "logoBg": "hsl(253.69796837586955, 70%, 20%)",
+    "logoCol": "hsl(231.58771305094515, 100%, 80%)"
+  },
+  {
+    "id": "job-48",
+    "company": "Remote",
+    "role": "AI Researcher",
+    "location": "San Francisco",
+    "salary": "$157k",
+    "type": "Part-time",
+    "match": 75,
+    "description": "Join Remote as a AI Researcher. We are looking for a candidate skilled in Kotlin, PyTorch, Python, NoSQL. This is a Part-time position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "PyTorch",
+      "Python",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(274.00362043125295, 70%, 20%)",
+    "logoCol": "hsl(138.99542101511094, 100%, 80%)"
+  },
+  {
+    "id": "job-49",
+    "company": "Shopify",
+    "role": "Growth Hacker",
+    "location": "Remote",
+    "salary": "$238k",
+    "type": "Part-time",
+    "match": 78,
+    "description": "Join Shopify as a Growth Hacker. We are looking for a candidate skilled in Go, Swift, PyTorch, Node.js. This is a Part-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "Swift",
+      "PyTorch",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(60.74846249958252, 70%, 20%)",
+    "logoCol": "hsl(74.94766787963694, 100%, 80%)"
+  },
+  {
+    "id": "job-50",
+    "company": "Supabase",
+    "role": "UX Researcher",
+    "location": "New York",
+    "salary": "$212k",
+    "type": "Intern",
+    "match": 82,
+    "description": "Join Supabase as a UX Researcher. We are looking for a candidate skilled in Kubernetes, TypeScript, UI/UX. This is a Intern position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "TypeScript",
+      "UI/UX"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(282.138313231429, 70%, 20%)",
+    "logoCol": "hsl(47.58810076545983, 100%, 80%)"
+  },
+  {
+    "id": "job-51",
+    "company": "Vercel",
+    "role": "Product Designer",
+    "location": "Tokyo",
+    "salary": "$165k",
+    "type": "Intern",
+    "match": 94,
+    "description": "Join Vercel as a Product Designer. We are looking for a candidate skilled in System Design, NoSQL, AWS, Kotlin. This is a Intern position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "NoSQL",
+      "AWS",
+      "Kotlin"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "V",
+    "logoBg": "hsl(292.64186958034264, 70%, 20%)",
+    "logoCol": "hsl(314.19775746115505, 100%, 80%)"
+  },
+  {
+    "id": "job-52",
+    "company": "Canva",
+    "role": "AI Researcher",
+    "location": "Austin",
+    "salary": "$80k",
+    "type": "Contract",
+    "match": 89,
+    "description": "Join Canva as a AI Researcher. We are looking for a candidate skilled in Machine Learning, Rust, NoSQL, Go, Kotlin. This is a Contract position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Machine Learning",
+      "Rust",
+      "NoSQL",
+      "Go",
+      "Kotlin"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "C",
+    "logoBg": "hsl(223.14638649411305, 70%, 20%)",
+    "logoCol": "hsl(336.1179545364865, 100%, 80%)"
+  },
+  {
+    "id": "job-53",
+    "company": "Revolut",
+    "role": "Fullstack Developer",
+    "location": "New York",
+    "salary": "$170k",
+    "type": "Contract",
+    "match": 78,
+    "description": "Join Revolut as a Fullstack Developer. We are looking for a candidate skilled in Tailwind CSS, Machine Learning, GraphQL, TypeScript, Rust. This is a Contract position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "Machine Learning",
+      "GraphQL",
+      "TypeScript",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(143.46618338855944, 70%, 20%)",
+    "logoCol": "hsl(303.667539271309, 100%, 80%)"
+  },
+  {
+    "id": "job-54",
+    "company": "Robinhood",
+    "role": "UX Researcher",
+    "location": "Singapore",
+    "salary": "$101k",
+    "type": "Intern",
+    "match": 76,
+    "description": "Join Robinhood as a UX Researcher. We are looking for a candidate skilled in UI/UX, React, Machine Learning, Figma, TypeScript. This is a Intern position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "React",
+      "Machine Learning",
+      "Figma",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(32.50581300943693, 70%, 20%)",
+    "logoCol": "hsl(256.9489585401912, 100%, 80%)"
+  },
+  {
+    "id": "job-55",
+    "company": "Meta",
+    "role": "Product Designer",
+    "location": "Seattle",
+    "salary": "$217k",
+    "type": "Full-time",
+    "match": 62,
+    "description": "Join Meta as a Product Designer. We are looking for a candidate skilled in GraphQL, TypeScript, Docker. This is a Full-time position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "TypeScript",
+      "Docker"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(286.0791058766753, 70%, 20%)",
+    "logoCol": "hsl(290.76268158862445, 100%, 80%)"
+  },
+  {
+    "id": "job-56",
+    "company": "GitHub",
+    "role": "Fullstack Developer",
+    "location": "Tokyo",
+    "salary": "$127k",
+    "type": "Full-time",
+    "match": 97,
+    "description": "Join GitHub as a Fullstack Developer. We are looking for a candidate skilled in Tailwind CSS, Python, GraphQL. This is a Full-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "Python",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #4c1d95 0%, #5b21b6 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(305.34989632269173, 70%, 20%)",
+    "logoCol": "hsl(292.52736723145273, 100%, 80%)"
+  },
+  {
+    "id": "job-57",
+    "company": "Vanta",
+    "role": "Engineering Manager",
+    "location": "Sydney",
+    "salary": "$120k",
+    "type": "Full-time",
+    "match": 79,
+    "description": "Join Vanta as a Engineering Manager. We are looking for a candidate skilled in Machine Learning, Docker, NoSQL. This is a Full-time position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Machine Learning",
+      "Docker",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "V",
+    "logoBg": "hsl(76.90048143709674, 70%, 20%)",
+    "logoCol": "hsl(129.15723737265517, 100%, 80%)"
+  },
+  {
+    "id": "job-58",
+    "company": "Snapchat",
+    "role": "Product Designer",
+    "location": "Remote",
+    "salary": "$90k",
+    "type": "Full-time",
+    "match": 81,
+    "description": "Join Snapchat as a Product Designer. We are looking for a candidate skilled in Tailwind CSS, NoSQL, PyTorch, Kubernetes. This is a Full-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "Tailwind CSS",
+      "NoSQL",
+      "PyTorch",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(189.15975488164656, 70%, 20%)",
+    "logoCol": "hsl(201.67386291826782, 100%, 80%)"
+  },
+  {
+    "id": "job-59",
+    "company": "Meta",
+    "role": "Growth Hacker",
+    "location": "London",
+    "salary": "$190k",
+    "type": "Intern",
+    "match": 89,
+    "description": "Join Meta as a Growth Hacker. We are looking for a candidate skilled in Node.js, GraphQL, SQL, Figma, Kubernetes. This is a Intern position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Node.js",
+      "GraphQL",
+      "SQL",
+      "Figma",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(145.74972123048462, 70%, 20%)",
+    "logoCol": "hsl(223.90752277262607, 100%, 80%)"
+  },
+  {
+    "id": "job-60",
+    "company": "Postman",
+    "role": "Mobile Developer (Android)",
+    "location": "Tokyo",
+    "salary": "$85k",
+    "type": "Contract",
+    "match": 81,
+    "description": "Join Postman as a Mobile Developer (Android). We are looking for a candidate skilled in Go, System Design, React, Kubernetes, NoSQL. This is a Contract position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "System Design",
+      "React",
+      "Kubernetes",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "P",
+    "logoBg": "hsl(5.139550776666568, 70%, 20%)",
+    "logoCol": "hsl(93.56720516480824, 100%, 80%)"
+  },
+  {
+    "id": "job-61",
+    "company": "Snapchat",
+    "role": "Graphics Programmer",
+    "location": "Sydney",
+    "salary": "$82k",
+    "type": "Part-time",
+    "match": 63,
+    "description": "Join Snapchat as a Graphics Programmer. We are looking for a candidate skilled in UI/UX, Machine Learning, TypeScript. This is a Part-time position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "Machine Learning",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #4c1d95 0%, #5b21b6 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(78.50164881482227, 70%, 20%)",
+    "logoCol": "hsl(295.89382728718806, 100%, 80%)"
+  },
+  {
+    "id": "job-62",
+    "company": "Google",
+    "role": "Data Engineer",
+    "location": "London",
+    "salary": "$221k",
+    "type": "Contract",
+    "match": 76,
+    "description": "Join Google as a Data Engineer. We are looking for a candidate skilled in Go, Figma, Docker, TypeScript. This is a Contract position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "Figma",
+      "Docker",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(114.61794989124418, 70%, 20%)",
+    "logoCol": "hsl(237.46166888398682, 100%, 80%)"
+  },
+  {
+    "id": "job-63",
+    "company": "Meta",
+    "role": "Mobile Developer (Android)",
+    "location": "London",
+    "salary": "$169k",
+    "type": "Contract",
+    "match": 60,
+    "description": "Join Meta as a Mobile Developer (Android). We are looking for a candidate skilled in GraphQL, Rust, NoSQL, SQL, PyTorch. This is a Contract position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "Rust",
+      "NoSQL",
+      "SQL",
+      "PyTorch"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(304.41362537622985, 70%, 20%)",
+    "logoCol": "hsl(175.9061107669061, 100%, 80%)"
+  },
+  {
+    "id": "job-64",
+    "company": "Slack",
+    "role": "Growth Hacker",
+    "location": "Remote",
+    "salary": "$144k",
+    "type": "Full-time",
+    "match": 71,
+    "description": "Join Slack as a Growth Hacker. We are looking for a candidate skilled in PyTorch, React, Swift, UI/UX, TypeScript. This is a Full-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "PyTorch",
+      "React",
+      "Swift",
+      "UI/UX",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(214.94761438951, 70%, 20%)",
+    "logoCol": "hsl(217.8923645904462, 100%, 80%)"
+  },
+  {
+    "id": "job-65",
+    "company": "Stripe",
+    "role": "Mobile Developer (iOS)",
+    "location": "San Francisco",
+    "salary": "$94k",
+    "type": "Full-time",
+    "match": 83,
+    "description": "Join Stripe as a Mobile Developer (iOS). We are looking for a candidate skilled in Python, Swift, PyTorch, Rust. This is a Full-time position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Python",
+      "Swift",
+      "PyTorch",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(162.79152242024574, 70%, 20%)",
+    "logoCol": "hsl(112.55678226974263, 100%, 80%)"
+  },
+  {
+    "id": "job-66",
+    "company": "Snowflake",
+    "role": "Mobile Developer (Android)",
+    "location": "Tokyo",
+    "salary": "$240k",
+    "type": "Part-time",
+    "match": 77,
+    "description": "Join Snowflake as a Mobile Developer (Android). We are looking for a candidate skilled in Kubernetes, Swift, Figma, Rust. This is a Part-time position based in Tokyo. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "Swift",
+      "Figma",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(120.77026541237741, 70%, 20%)",
+    "logoCol": "hsl(310.50936913511094, 100%, 80%)"
+  },
+  {
+    "id": "job-67",
+    "company": "Google",
+    "role": "Data Engineer",
+    "location": "Remote",
+    "salary": "$135k",
+    "type": "Full-time",
+    "match": 71,
+    "description": "Join Google as a Data Engineer. We are looking for a candidate skilled in NoSQL, Swift, UI/UX, Figma, Machine Learning. This is a Full-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "Swift",
+      "UI/UX",
+      "Figma",
+      "Machine Learning"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(237.97850695562278, 70%, 20%)",
+    "logoCol": "hsl(251.54261959707787, 100%, 80%)"
+  },
+  {
+    "id": "job-68",
+    "company": "Databricks",
+    "role": "Technical Writer",
+    "location": "London",
+    "salary": "$243k",
+    "type": "Full-time",
+    "match": 62,
+    "description": "Join Databricks as a Technical Writer. We are looking for a candidate skilled in Docker, React, PyTorch. This is a Full-time position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "React",
+      "PyTorch"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(297.2183309363342, 70%, 20%)",
+    "logoCol": "hsl(32.30122273632465, 100%, 80%)"
+  },
+  {
+    "id": "job-69",
+    "company": "Kraken",
+    "role": "Engineering Manager",
+    "location": "Seattle",
+    "salary": "$140k",
+    "type": "Intern",
+    "match": 68,
+    "description": "Join Kraken as a Engineering Manager. We are looking for a candidate skilled in Kotlin, Go, AWS, System Design. This is a Intern position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "Go",
+      "AWS",
+      "System Design"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "K",
+    "logoBg": "hsl(18.74621943919632, 70%, 20%)",
+    "logoCol": "hsl(165.70054822357534, 100%, 80%)"
+  },
+  {
+    "id": "job-70",
+    "company": "Remote",
+    "role": "Product Manager",
+    "location": "New York",
+    "salary": "$158k",
+    "type": "Full-time",
+    "match": 72,
+    "description": "Join Remote as a Product Manager. We are looking for a candidate skilled in NoSQL, Figma, GraphQL, Go. This is a Full-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "Figma",
+      "GraphQL",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #091e3a 0%, #2f80ed 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(344.8598549844416, 70%, 20%)",
+    "logoCol": "hsl(142.04866610221367, 100%, 80%)"
+  },
+  {
+    "id": "job-71",
+    "company": "Deel",
+    "role": "DevOps Engineer",
+    "location": "London",
+    "salary": "$225k",
+    "type": "Intern",
+    "match": 84,
+    "description": "Join Deel as a DevOps Engineer. We are looking for a candidate skilled in Docker, Python, Machine Learning, TypeScript. This is a Intern position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "Python",
+      "Machine Learning",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(224.00339019095065, 70%, 20%)",
+    "logoCol": "hsl(144.87640546859012, 100%, 80%)"
+  },
+  {
+    "id": "job-72",
+    "company": "Atlassian",
+    "role": "ML Engineer",
+    "location": "Sydney",
+    "salary": "$170k",
+    "type": "Part-time",
+    "match": 63,
+    "description": "Join Atlassian as a ML Engineer. We are looking for a candidate skilled in Rust, Machine Learning, Node.js, Figma, Kubernetes. This is a Part-time position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Rust",
+      "Machine Learning",
+      "Node.js",
+      "Figma",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #064e3b 0%, #065f46 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(353.0276823756417, 70%, 20%)",
+    "logoCol": "hsl(66.69475154542833, 100%, 80%)"
+  },
+  {
+    "id": "job-73",
+    "company": "Remote",
+    "role": "Engineering Manager",
+    "location": "New York",
+    "salary": "$213k",
+    "type": "Full-time",
+    "match": 64,
+    "description": "Join Remote as a Engineering Manager. We are looking for a candidate skilled in System Design, GraphQL, Kubernetes, Tailwind CSS. This is a Full-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "GraphQL",
+      "Kubernetes",
+      "Tailwind CSS"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(58.93642874773504, 70%, 20%)",
+    "logoCol": "hsl(104.66183449207101, 100%, 80%)"
+  },
+  {
+    "id": "job-74",
+    "company": "Spotify",
+    "role": "ML Engineer",
+    "location": "San Francisco",
+    "salary": "$196k",
+    "type": "Contract",
+    "match": 79,
+    "description": "Join Spotify as a ML Engineer. We are looking for a candidate skilled in Figma, PyTorch, NoSQL. This is a Contract position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "Figma",
+      "PyTorch",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(46.80769386196525, 70%, 20%)",
+    "logoCol": "hsl(225.34787825918093, 100%, 80%)"
+  },
+  {
+    "id": "job-75",
+    "company": "Spotify",
+    "role": "Graphics Programmer",
+    "location": "Berlin",
+    "salary": "$90k",
+    "type": "Part-time",
+    "match": 87,
+    "description": "Join Spotify as a Graphics Programmer. We are looking for a candidate skilled in Go, Rust, NoSQL. This is a Part-time position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "Rust",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(258.5951680886505, 70%, 20%)",
+    "logoCol": "hsl(62.69168710236955, 100%, 80%)"
+  },
+  {
+    "id": "job-76",
+    "company": "Atlassian",
+    "role": "Mobile Developer (iOS)",
+    "location": "Sydney",
+    "salary": "$213k",
+    "type": "Intern",
+    "match": 72,
+    "description": "Join Atlassian as a Mobile Developer (iOS). We are looking for a candidate skilled in NoSQL, Node.js, Tailwind CSS. This is a Intern position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(172.53589431229295, 70%, 20%)",
+    "logoCol": "hsl(99.09950657789548, 100%, 80%)"
+  },
+  {
+    "id": "job-77",
+    "company": "Snowflake",
+    "role": "Growth Hacker",
+    "location": "Austin",
+    "salary": "$94k",
+    "type": "Part-time",
+    "match": 69,
+    "description": "Join Snowflake as a Growth Hacker. We are looking for a candidate skilled in Docker, Figma, Machine Learning, Kotlin. This is a Part-time position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "Figma",
+      "Machine Learning",
+      "Kotlin"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(186.49885244236722, 70%, 20%)",
+    "logoCol": "hsl(57.84339797986651, 100%, 80%)"
+  },
+  {
+    "id": "job-78",
+    "company": "Google",
+    "role": "Growth Hacker",
+    "location": "Remote",
+    "salary": "$186k",
+    "type": "Intern",
+    "match": 82,
+    "description": "Join Google as a Growth Hacker. We are looking for a candidate skilled in NoSQL, React, SQL. This is a Intern position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "React",
+      "SQL"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(140.29386413651437, 70%, 20%)",
+    "logoCol": "hsl(121.71725762081272, 100%, 80%)"
+  },
+  {
+    "id": "job-79",
+    "company": "Slack",
+    "role": "Mobile Developer (Android)",
+    "location": "San Francisco",
+    "salary": "$114k",
+    "type": "Full-time",
+    "match": 91,
+    "description": "Join Slack as a Mobile Developer (Android). We are looking for a candidate skilled in AWS, Docker, Kotlin, Machine Learning, GraphQL. This is a Full-time position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "AWS",
+      "Docker",
+      "Kotlin",
+      "Machine Learning",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(207.66412884048972, 70%, 20%)",
+    "logoCol": "hsl(132.69722568278496, 100%, 80%)"
+  },
+  {
+    "id": "job-80",
+    "company": "Raycast",
+    "role": "Security Engineer",
+    "location": "Seattle",
+    "salary": "$210k",
+    "type": "Part-time",
+    "match": 93,
+    "description": "Join Raycast as a Security Engineer. We are looking for a candidate skilled in Docker, Kotlin, Swift, Node.js, PyTorch. This is a Part-time position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "Kotlin",
+      "Swift",
+      "Node.js",
+      "PyTorch"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(203.43024994094336, 70%, 20%)",
+    "logoCol": "hsl(154.6054957156612, 100%, 80%)"
+  },
+  {
+    "id": "job-81",
+    "company": "Spotify",
+    "role": "Mobile Developer (Android)",
+    "location": "Singapore",
+    "salary": "$96k",
+    "type": "Contract",
+    "match": 67,
+    "description": "Join Spotify as a Mobile Developer (Android). We are looking for a candidate skilled in Kotlin, PyTorch, System Design, Rust. This is a Contract position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "PyTorch",
+      "System Design",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(187.33965349204507, 70%, 20%)",
+    "logoCol": "hsl(67.93183764287333, 100%, 80%)"
+  },
+  {
+    "id": "job-82",
+    "company": "Scale AI",
+    "role": "Product Designer",
+    "location": "Seattle",
+    "salary": "$127k",
+    "type": "Intern",
+    "match": 68,
+    "description": "Join Scale AI as a Product Designer. We are looking for a candidate skilled in Go, UI/UX, NoSQL. This is a Intern position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "UI/UX",
+      "NoSQL"
+    ],
+    "gradient": "linear-gradient(135deg, #831843 0%, #9d174d 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(329.4691977799675, 70%, 20%)",
+    "logoCol": "hsl(264.99551253740896, 100%, 80%)"
+  },
+  {
+    "id": "job-83",
+    "company": "Google",
+    "role": "Solutions Architect",
+    "location": "Berlin",
+    "salary": "$194k",
+    "type": "Intern",
+    "match": 95,
+    "description": "Join Google as a Solutions Architect. We are looking for a candidate skilled in React, Swift, Kotlin, Python. This is a Intern position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "React",
+      "Swift",
+      "Kotlin",
+      "Python"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "G",
+    "logoBg": "hsl(161.65618911564914, 70%, 20%)",
+    "logoCol": "hsl(45.57877748268438, 100%, 80%)"
+  },
+  {
+    "id": "job-84",
+    "company": "Notion",
+    "role": "ML Engineer",
+    "location": "London",
+    "salary": "$192k",
+    "type": "Part-time",
+    "match": 88,
+    "description": "Join Notion as a ML Engineer. We are looking for a candidate skilled in Swift, Kotlin, UI/UX, Go. This is a Part-time position based in London. Our team values innovation and technical excellence.",
+    "skills": [
+      "Swift",
+      "Kotlin",
+      "UI/UX",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "N",
+    "logoBg": "hsl(352.3584622428054, 70%, 20%)",
+    "logoCol": "hsl(330.64857878429655, 100%, 80%)"
+  },
+  {
+    "id": "job-85",
+    "company": "Meta",
+    "role": "Data Scientist",
+    "location": "Austin",
+    "salary": "$103k",
+    "type": "Full-time",
+    "match": 90,
+    "description": "Join Meta as a Data Scientist. We are looking for a candidate skilled in TypeScript, Rust, Docker, SQL. This is a Full-time position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "TypeScript",
+      "Rust",
+      "Docker",
+      "SQL"
+    ],
+    "gradient": "linear-gradient(135deg, #4c1d95 0%, #5b21b6 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(96.60391677591208, 70%, 20%)",
+    "logoCol": "hsl(222.59478676616433, 100%, 80%)"
+  },
+  {
+    "id": "job-86",
+    "company": "Airbnb",
+    "role": "Technical Writer",
+    "location": "New York",
+    "salary": "$216k",
+    "type": "Part-time",
+    "match": 69,
+    "description": "Join Airbnb as a Technical Writer. We are looking for a candidate skilled in Kubernetes, Tailwind CSS, GraphQL. This is a Part-time position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kubernetes",
+      "Tailwind CSS",
+      "GraphQL"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(25.68978789894096, 70%, 20%)",
+    "logoCol": "hsl(350.97607592922355, 100%, 80%)"
+  },
+  {
+    "id": "job-87",
+    "company": "PlanetScale",
+    "role": "Engineering Manager",
+    "location": "Berlin",
+    "salary": "$237k",
+    "type": "Intern",
+    "match": 76,
+    "description": "Join PlanetScale as a Engineering Manager. We are looking for a candidate skilled in Kotlin, AWS, Figma, Machine Learning. This is a Intern position based in Berlin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Kotlin",
+      "AWS",
+      "Figma",
+      "Machine Learning"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "P",
+    "logoBg": "hsl(226.06675728447755, 70%, 20%)",
+    "logoCol": "hsl(323.4968326587508, 100%, 80%)"
+  },
+  {
+    "id": "job-88",
+    "company": "Notion",
+    "role": "Backend Engineer",
+    "location": "Seattle",
+    "salary": "$169k",
+    "type": "Part-time",
+    "match": 82,
+    "description": "Join Notion as a Backend Engineer. We are looking for a candidate skilled in Swift, SQL, TypeScript, Node.js. This is a Part-time position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Swift",
+      "SQL",
+      "TypeScript",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "N",
+    "logoBg": "hsl(56.59834678387254, 70%, 20%)",
+    "logoCol": "hsl(25.725264430020825, 100%, 80%)"
+  },
+  {
+    "id": "job-89",
+    "company": "Netflix",
+    "role": "Technical Writer",
+    "location": "Seattle",
+    "salary": "$164k",
+    "type": "Full-time",
+    "match": 91,
+    "description": "Join Netflix as a Technical Writer. We are looking for a candidate skilled in Go, TypeScript, Machine Learning, GraphQL, Node.js. This is a Full-time position based in Seattle. Our team values innovation and technical excellence.",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "Machine Learning",
+      "GraphQL",
+      "Node.js"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "N",
+    "logoBg": "hsl(62.683119382030156, 70%, 20%)",
+    "logoCol": "hsl(277.7336011442414, 100%, 80%)"
+  },
+  {
+    "id": "job-90",
+    "company": "Linear",
+    "role": "Growth Hacker",
+    "location": "New York",
+    "salary": "$86k",
+    "type": "Contract",
+    "match": 82,
+    "description": "Join Linear as a Growth Hacker. We are looking for a candidate skilled in UI/UX, SQL, Swift, Kotlin. This is a Contract position based in New York. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "SQL",
+      "Swift",
+      "Kotlin"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "L",
+    "logoBg": "hsl(110.5975783182949, 70%, 20%)",
+    "logoCol": "hsl(289.649002792027, 100%, 80%)"
+  },
+  {
+    "id": "job-91",
+    "company": "Robinhood",
+    "role": "Frontend Engineer",
+    "location": "Singapore",
+    "salary": "$172k",
+    "type": "Contract",
+    "match": 66,
+    "description": "Join Robinhood as a Frontend Engineer. We are looking for a candidate skilled in React, Go, PyTorch, Tailwind CSS. This is a Contract position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "React",
+      "Go",
+      "PyTorch",
+      "Tailwind CSS"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(34.662860657324785, 70%, 20%)",
+    "logoCol": "hsl(143.70179871394942, 100%, 80%)"
+  },
+  {
+    "id": "job-92",
+    "company": "Atlassian",
+    "role": "Product Designer",
+    "location": "Singapore",
+    "salary": "$238k",
+    "type": "Intern",
+    "match": 90,
+    "description": "Join Atlassian as a Product Designer. We are looking for a candidate skilled in NoSQL, TypeScript, Swift. This is a Intern position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "NoSQL",
+      "TypeScript",
+      "Swift"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "A",
+    "logoBg": "hsl(161.0095980433003, 70%, 20%)",
+    "logoCol": "hsl(8.58376336345804, 100%, 80%)"
+  },
+  {
+    "id": "job-93",
+    "company": "Scale AI",
+    "role": "Mobile Developer (Android)",
+    "location": "Remote",
+    "salary": "$112k",
+    "type": "Contract",
+    "match": 86,
+    "description": "Join Scale AI as a Mobile Developer (Android). We are looking for a candidate skilled in System Design, Python, Go. This is a Contract position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "System Design",
+      "Python",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(66.37374099760272, 70%, 20%)",
+    "logoCol": "hsl(170.25096710588417, 100%, 80%)"
+  },
+  {
+    "id": "job-94",
+    "company": "Robinhood",
+    "role": "Solutions Architect",
+    "location": "Austin",
+    "salary": "$151k",
+    "type": "Full-time",
+    "match": 62,
+    "description": "Join Robinhood as a Solutions Architect. We are looking for a candidate skilled in Docker, GraphQL, Tailwind CSS. This is a Full-time position based in Austin. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "GraphQL",
+      "Tailwind CSS"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "R",
+    "logoBg": "hsl(130.85430232981727, 70%, 20%)",
+    "logoCol": "hsl(209.90019648719803, 100%, 80%)"
+  },
+  {
+    "id": "job-95",
+    "company": "Spotify",
+    "role": "Data Engineer",
+    "location": "Sydney",
+    "salary": "$116k",
+    "type": "Contract",
+    "match": 84,
+    "description": "Join Spotify as a Data Engineer. We are looking for a candidate skilled in Python, GraphQL, NoSQL, UI/UX, TypeScript. This is a Contract position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Python",
+      "GraphQL",
+      "NoSQL",
+      "UI/UX",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #2a0a1a 0%, #3a1a0a 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(232.34570151184226, 70%, 20%)",
+    "logoCol": "hsl(86.76437623773963, 100%, 80%)"
+  },
+  {
+    "id": "job-96",
+    "company": "Sentry",
+    "role": "Frontend Engineer",
+    "location": "Remote",
+    "salary": "$246k",
+    "type": "Contract",
+    "match": 72,
+    "description": "Join Sentry as a Frontend Engineer. We are looking for a candidate skilled in Docker, React, TypeScript, Rust. This is a Contract position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "Docker",
+      "React",
+      "TypeScript",
+      "Rust"
+    ],
+    "gradient": "linear-gradient(135deg, #111827 0%, #1f2937 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(123.73208156881023, 70%, 20%)",
+    "logoCol": "hsl(103.32972616514957, 100%, 80%)"
+  },
+  {
+    "id": "job-97",
+    "company": "Mistral",
+    "role": "Growth Hacker",
+    "location": "Sydney",
+    "salary": "$142k",
+    "type": "Contract",
+    "match": 88,
+    "description": "Join Mistral as a Growth Hacker. We are looking for a candidate skilled in Rust, Swift, PyTorch, UI/UX, TypeScript. This is a Contract position based in Sydney. Our team values innovation and technical excellence.",
+    "skills": [
+      "Rust",
+      "Swift",
+      "PyTorch",
+      "UI/UX",
+      "TypeScript"
+    ],
+    "gradient": "linear-gradient(135deg, #701a75 0%, #86198f 100%)",
+    "logoTxt": "M",
+    "logoBg": "hsl(87.13912643290367, 70%, 20%)",
+    "logoCol": "hsl(189.0871377568306, 100%, 80%)"
+  },
+  {
+    "id": "job-98",
+    "company": "Stripe",
+    "role": "Fullstack Developer",
+    "location": "Singapore",
+    "salary": "$249k",
+    "type": "Contract",
+    "match": 83,
+    "description": "Join Stripe as a Fullstack Developer. We are looking for a candidate skilled in UI/UX, Tailwind CSS, Node.js, Kubernetes. This is a Contract position based in Singapore. Our team values innovation and technical excellence.",
+    "skills": [
+      "UI/UX",
+      "Tailwind CSS",
+      "Node.js",
+      "Kubernetes"
+    ],
+    "gradient": "linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%)",
+    "logoTxt": "S",
+    "logoBg": "hsl(111.90702912421435, 70%, 20%)",
+    "logoCol": "hsl(257.9577147967731, 100%, 80%)"
+  },
+  {
+    "id": "job-99",
+    "company": "Kraken",
+    "role": "Technical Writer",
+    "location": "San Francisco",
+    "salary": "$152k",
+    "type": "Full-time",
+    "match": 78,
+    "description": "Join Kraken as a Technical Writer. We are looking for a candidate skilled in GraphQL, TypeScript, Node.js, Tailwind CSS, Figma. This is a Full-time position based in San Francisco. Our team values innovation and technical excellence.",
+    "skills": [
+      "GraphQL",
+      "TypeScript",
+      "Node.js",
+      "Tailwind CSS",
+      "Figma"
+    ],
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #334155 100%)",
+    "logoTxt": "K",
+    "logoBg": "hsl(315.80745563895283, 70%, 20%)",
+    "logoCol": "hsl(154.63577630789638, 100%, 80%)"
+  },
+  {
+    "id": "job-100",
+    "company": "Databricks",
+    "role": "AI Researcher",
+    "location": "Remote",
+    "salary": "$80k",
+    "type": "Part-time",
+    "match": 71,
+    "description": "Join Databricks as a AI Researcher. We are looking for a candidate skilled in Figma, Swift, Go. This is a Part-time position based in Remote. Our team values innovation and technical excellence.",
+    "skills": [
+      "Figma",
+      "Swift",
+      "Go"
+    ],
+    "gradient": "linear-gradient(135deg, #312e81 0%, #3730a3 100%)",
+    "logoTxt": "D",
+    "logoBg": "hsl(47.22610486995164, 70%, 20%)",
+    "logoCol": "hsl(202.7969294642804, 100%, 80%)"
+  }
+]
