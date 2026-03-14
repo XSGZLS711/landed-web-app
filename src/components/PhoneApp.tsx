@@ -488,7 +488,29 @@ export default function PhoneApp() {
                         <div className="fl-role">{job.role}</div>
                         <div className="fl-date">{job.appliedDate}</div>
                       </div>
-                      <div className={`fl-badge ${job.status === 'Airborne' ? 'airborne' : 'approach'}`}>{job.status}</div>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <div className={`fl-badge ${job.status === 'Airborne' ? 'airborne' : 'approach'}`}>{job.status}</div>
+                        <button
+                          onClick={e => {
+                            e.stopPropagation();
+                            const updated = flights.filter(f => f.id !== job.id);
+                            setFlights(updated);
+                            saveFlights(updated);
+                          }}
+                          style={{
+                            background: 'none', border: 'none', cursor: 'pointer',
+                            color: '#cbd5e1', fontSize: '14px', lineHeight: 1,
+                            padding: '2px', borderRadius: '50%',
+                            transition: 'color 0.15s',
+                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                          }}
+                          onMouseEnter={e => (e.currentTarget.style.color = '#ef4444')}
+                          onMouseLeave={e => (e.currentTarget.style.color = '#cbd5e1')}
+                          title="Remove"
+                        >
+                          ×
+                        </button>
+                      </div>
                     </div>
                   ))}
                 </>
